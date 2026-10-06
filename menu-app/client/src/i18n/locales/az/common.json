@@ -1,0 +1,48 @@
+{
+  "siteName": "Menyu",
+  "siteTagline": "Restoran menyusu",
+  "languages": {
+    "az": "Azərbaycanca",
+    "en": "English",
+    "ru": "Русский"
+  },
+  "languageShort": {
+    "az": "AZ",
+    "en": "EN",
+    "ru": "RU"
+  },
+  "language": "Dil",
+  "loading": "Yüklənir...",
+  "error": "Xəta baş verdi",
+  "errorDescription": "Məlumatı yükləmək mümkün olmadı. Bir az sonra yenidən cəhd edin.",
+  "networkError": "Serverə qoşulmaq mümkün olmadı",
+  "retry": "Yenidən cəhd et",
+  "back": "Geri",
+  "backHome": "Ana səhifəyə qayıt",
+  "notFound": "Səhifə tapılmadı",
+  "notFoundDescription": "Axtardığınız səhifə mövcud deyil və ya köçürülüb.",
+  "empty": "Məlumat yoxdur",
+  "comingSoon": "Hazırlanır",
+  "save": "Yadda saxla",
+  "cancel": "Ləğv et",
+  "delete": "Sil",
+  "edit": "Redaktə et",
+  "add": "Əlavə et",
+  "search": "Axtar",
+  "yes": "Bəli",
+  "no": "Xeyr",
+  "confirm": "Təsdiqlə",
+  "close": "Bağla",
+  "actions": "Əməliyyatlar",
+  "sessionExpired": "Sessiyanın vaxtı bitib. Yenidən daxil olun.",
+  "footer": "© {{year}} {{siteName}}. Bütün hüquqlar qorunur.",
+  "nav": {
+    "menu": "Menyu",
+    "admin": "Admin panel",
+    "dashboard": "İdarə paneli",
+    "categories": "Bölmələr",
+    "items": "Məhsullar",
+    "login": "Daxil ol",
+    "logout": "Çıxış"
+  }
+}

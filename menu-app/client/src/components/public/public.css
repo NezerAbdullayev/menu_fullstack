@@ -1,0 +1,291 @@
+/* Public menyu səhifələri üçün üslublar (tünd tema). */
+
+:root {
+  --pm-bg: #0f0f0f;
+  --pm-surface: #161616;
+  --pm-border: #262626;
+  --pm-border-strong: #3a3a3a;
+  --pm-text: #f8fafc;
+  --pm-muted: #8a8a8a;
+  --pm-primary: #c0392b;
+  /* Antd header (64px) + yapışqan bölmə zolağı */
+  --pm-header-h: 64px;
+  --pm-sticky-offset: 136px;
+}
+
+body.pm-dark {
+  background: var(--pm-bg);
+  color: var(--pm-text);
+}
+
+/* ---------- Ana səhifə: bölmə kartları ---------- */
+
+.pm-card {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--pm-border);
+  background: var(--pm-surface);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+a.pm-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.pm-card:hover,
+a.pm-card:focus-visible {
+  border-color: var(--pm-border-strong);
+  transform: translateY(-2px);
+}
+
+a.pm-card:focus-visible {
+  outline: 2px solid var(--pm-text);
+  outline-offset: 2px;
+}
+
+.pm-card-body {
+  padding: 12px;
+}
+
+/* ---------- Şəkil ---------- */
+
+.pm-media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #1f1f1f;
+}
+
+.pm-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pm-media-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  color: var(--pm-muted);
+  opacity: 0.6;
+}
+
+/* ---------- Mətn kəsmə ---------- */
+
+.pm-clamp-1,
+.pm-clamp-2,
+.pm-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.pm-clamp-1 {
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.pm-clamp-2 {
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.pm-clamp-3 {
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+/* ---------- Menyu səhifəsi ---------- */
+
+.pm-menu {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  min-width: 0;
+}
+
+.pm-menu-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.pm-menu-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--pm-text);
+  text-align: center;
+}
+
+.pm-menu-sticky {
+  position: sticky;
+  top: var(--pm-header-h);
+  z-index: 9;
+  margin: 0 -16px;
+  padding: 10px 16px;
+  background: var(--pm-bg);
+  border-bottom: 1px solid var(--pm-border);
+}
+
+/* Bölmə zolağı: yalnız bu hissə üfüqi sürüşür */
+.pm-tabs {
+  display: flex;
+  gap: 8px;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.pm-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.pm-tab {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid var(--pm-border);
+  background: transparent;
+  color: #e5e5e5;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.pm-tab:hover {
+  border-color: var(--pm-border-strong);
+  color: var(--pm-text);
+}
+
+.pm-tab:focus-visible {
+  outline: 2px solid var(--pm-text);
+  outline-offset: 2px;
+}
+
+.pm-tab-active,
+.pm-tab-active:hover {
+  background: #2a2a2a;
+  border-color: var(--pm-border-strong);
+  color: var(--pm-text);
+}
+
+/* ---------- Bölmə ---------- */
+
+.pm-section {
+  scroll-margin-top: var(--pm-sticky-offset);
+  margin-top: 16px;
+}
+
+.pm-section-title {
+  margin: 0;
+  padding: 12px 16px;
+  border: 1px solid var(--pm-border);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--pm-text);
+}
+
+.pm-section-empty {
+  margin: 0;
+  padding: 16px;
+  color: var(--pm-muted);
+  text-align: center;
+}
+
+.pm-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px 24px;
+  padding: 12px 16px 8px;
+}
+
+@media (min-width: 560px) {
+  .pm-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---------- Məhsul sətri ---------- */
+
+.pm-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 8px 0;
+}
+
+.pm-item-thumb {
+  flex: 0 0 64px;
+  width: 64px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.pm-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.pm-item-name {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--pm-text);
+}
+
+.pm-item-desc {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--pm-muted);
+}
+
+.pm-item-price {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--pm-muted);
+}
+
+.pm-item-badge {
+  padding: 1px 8px;
+  border: 1px solid var(--pm-border-strong);
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #bdbdbd;
+}
+
+.pm-item-unavailable .pm-item-thumb,
+.pm-item-unavailable .pm-item-name,
+.pm-item-unavailable .pm-item-desc {
+  opacity: 0.5;
+}
+
+.pm-item-unavailable .pm-item-thumb {
+  filter: grayscale(1);
+}

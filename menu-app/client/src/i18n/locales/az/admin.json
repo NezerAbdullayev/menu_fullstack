@@ -1,0 +1,102 @@
+{
+  "login": {
+    "title": "Admin panelə giriş",
+    "subtitle": "Menyunu idarə etmək üçün daxil olun",
+    "email": "Email",
+    "password": "Parol",
+    "emailRequired": "Email daxil edin",
+    "emailInvalid": "Email düzgün deyil",
+    "passwordRequired": "Parol daxil edin",
+    "submit": "Daxil ol",
+    "invalid": "Email və ya parol yanlışdır",
+    "tooMany": "Çox cəhd edildi. 15 dəqiqə sonra yenidən yoxlayın.",
+    "invalidData": "Daxil edilən məlumatlar düzgün deyil",
+    "backToSite": "Sayta qayıt"
+  },
+  "dashboard": {
+    "welcome": "Xoş gəldiniz, {{email}}",
+    "stats": {
+      "categories": "Bölmələr",
+      "items": "Məhsullar",
+      "unavailable": "Mövcud olmayan məhsullar"
+    },
+    "quickLinks": "Sürətli keçid",
+    "manageCategories": "Bölmələri idarə et",
+    "manageItems": "Məhsulları idarə et",
+    "viewSite": "Sayta bax"
+  },
+  "fields": {
+    "name": "Ad",
+    "description": "Təsvir",
+    "slug": "Slug (URL)",
+    "image": "Şəkil",
+    "price": "Qiymət",
+    "category": "Bölmə",
+    "active": "Aktiv",
+    "available": "Mövcuddur",
+    "order": "Sıra",
+    "itemCount": "Məhsul sayı"
+  },
+  "status": {
+    "active": "Aktiv",
+    "hidden": "Gizli",
+    "available": "Var",
+    "unavailable": "Yoxdur"
+  },
+  "validation": {
+    "azRequired": "Azərbaycan dilində ad mütləqdir",
+    "categoryRequired": "Bölmə seçin",
+    "priceRequired": "Qiymət daxil edin",
+    "priceMin": "Qiymət mənfi ola bilməz"
+  },
+  "reorder": {
+    "up": "Yuxarı",
+    "down": "Aşağı",
+    "failed": "Sıralamanı yadda saxlamaq mümkün olmadı"
+  },
+  "upload": {
+    "button": "Şəkil yüklə",
+    "change": "Şəkli dəyiş",
+    "remove": "Şəkli sil",
+    "noImage": "Şəkil yoxdur",
+    "hint": "JPG, PNG və ya WEBP, ən çox 5 MB",
+    "invalidType": "Yalnız JPG, PNG və WEBP faylları qəbul olunur",
+    "tooLarge": "Fayl 5 MB-dan böyük ola bilməz",
+    "failed": "Şəkli yükləmək mümkün olmadı"
+  },
+  "saveFailed": "Yadda saxlamaq mümkün olmadı",
+  "deleteFailed": "Silmək mümkün olmadı",
+  "categories": {
+    "add": "Bölmə əlavə et",
+    "createTitle": "Yeni bölmə",
+    "editTitle": "Bölməni redaktə et",
+    "empty": "Hələ bölmə yoxdur",
+    "slugHelp": "Boş qalsa, Azərbaycan dilindəki addan avtomatik yaradılır",
+    "slugInvalid": "Yalnız kiçik latın hərfləri, rəqəmlər və defis",
+    "slugTaken": "Bu slug artıq istifadə olunur",
+    "created": "Bölmə yaradıldı",
+    "updated": "Bölmə yeniləndi",
+    "deleted": "Bölmə silindi",
+    "activated": "Bölmə aktiv edildi",
+    "deactivated": "Bölmə gizlədildi",
+    "deleteConfirm": "Bu bölmə silinsin?",
+    "hasItems": "Bu bölmədə {{count}} məhsul var. Əvvəlcə onları silin və ya başqa bölməyə köçürün.",
+    "showItems": "Bölmənin məhsullarına bax"
+  },
+  "items": {
+    "add": "Məhsul əlavə et",
+    "createTitle": "Yeni məhsul",
+    "editTitle": "Məhsulu redaktə et",
+    "empty": "Məhsul yoxdur",
+    "allCategories": "Bütün bölmələr",
+    "selectCategory": "Bölmə seçin",
+    "reorderHint": "Sıranı dəyişmək üçün yuxarıdan bölmə seçin",
+    "noCategories": "Məhsul əlavə etmək üçün əvvəlcə bölmə yaradın",
+    "created": "Məhsul yaradıldı",
+    "updated": "Məhsul yeniləndi",
+    "deleted": "Məhsul silindi",
+    "madeAvailable": "Məhsul mövcud edildi",
+    "madeUnavailable": "Məhsul mövcud olmayan kimi işarələndi",
+    "deleteConfirm": "Bu məhsul silinsin?"
+  }
+}

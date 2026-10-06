@@ -1,0 +1,10 @@
+{
+  "menuTitle": "Меню",
+  "menuSubtitle": "Выберите раздел",
+  "menuEmpty": "Меню пока пусто",
+  "categoriesNav": "Разделы меню",
+  "categoryEmpty": "В этом разделе пока нет блюд",
+  "categoryNotFound": "Раздел не найден",
+  "categoryNotFoundDescription": "Этот раздел не существует или сейчас недоступен.",
+  "unavailable": "Сейчас нет в наличии"
+}

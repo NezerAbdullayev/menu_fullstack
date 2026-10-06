@@ -1,0 +1,10 @@
+{
+  "menuTitle": "Menyu",
+  "menuSubtitle": "Bölmə seçin",
+  "menuEmpty": "Menyu hələ boşdur",
+  "categoriesNav": "Menyu bölmələri",
+  "categoryEmpty": "Bu bölmədə hələ məhsul yoxdur",
+  "categoryNotFound": "Bölmə tapılmadı",
+  "categoryNotFoundDescription": "Bu bölmə mövcud deyil və ya hazırda aktiv deyil.",
+  "unavailable": "Hazırda yoxdur"
+}

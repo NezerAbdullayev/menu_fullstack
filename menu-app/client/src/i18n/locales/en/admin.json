@@ -1,0 +1,102 @@
+{
+  "login": {
+    "title": "Admin sign in",
+    "subtitle": "Sign in to manage the menu",
+    "email": "Email",
+    "password": "Password",
+    "emailRequired": "Enter your email",
+    "emailInvalid": "Email is not valid",
+    "passwordRequired": "Enter your password",
+    "submit": "Sign in",
+    "invalid": "Incorrect email or password",
+    "tooMany": "Too many attempts. Try again in 15 minutes.",
+    "invalidData": "The entered data is not valid",
+    "backToSite": "Back to site"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{email}}",
+    "stats": {
+      "categories": "Categories",
+      "items": "Items",
+      "unavailable": "Unavailable items"
+    },
+    "quickLinks": "Quick links",
+    "manageCategories": "Manage categories",
+    "manageItems": "Manage items",
+    "viewSite": "View site"
+  },
+  "fields": {
+    "name": "Name",
+    "description": "Description",
+    "slug": "Slug (URL)",
+    "image": "Image",
+    "price": "Price",
+    "category": "Category",
+    "active": "Active",
+    "available": "Available",
+    "order": "Order",
+    "itemCount": "Items"
+  },
+  "status": {
+    "active": "Active",
+    "hidden": "Hidden",
+    "available": "Yes",
+    "unavailable": "No"
+  },
+  "validation": {
+    "azRequired": "Name in Azerbaijani is required",
+    "categoryRequired": "Select a category",
+    "priceRequired": "Enter a price",
+    "priceMin": "Price cannot be negative"
+  },
+  "reorder": {
+    "up": "Move up",
+    "down": "Move down",
+    "failed": "Could not save the order"
+  },
+  "upload": {
+    "button": "Upload image",
+    "change": "Change image",
+    "remove": "Remove image",
+    "noImage": "No image",
+    "hint": "JPG, PNG or WEBP, up to 5 MB",
+    "invalidType": "Only JPG, PNG and WEBP files are allowed",
+    "tooLarge": "File cannot be larger than 5 MB",
+    "failed": "Could not upload the image"
+  },
+  "saveFailed": "Could not save",
+  "deleteFailed": "Could not delete",
+  "categories": {
+    "add": "Add category",
+    "createTitle": "New category",
+    "editTitle": "Edit category",
+    "empty": "No categories yet",
+    "slugHelp": "If left empty, it is generated from the Azerbaijani name",
+    "slugInvalid": "Only lowercase Latin letters, digits and hyphens",
+    "slugTaken": "This slug is already in use",
+    "created": "Category created",
+    "updated": "Category updated",
+    "deleted": "Category deleted",
+    "activated": "Category activated",
+    "deactivated": "Category hidden",
+    "deleteConfirm": "Delete this category?",
+    "hasItems": "This category has {{count}} item(s). Delete them or move them to another category first.",
+    "showItems": "Show items in this category"
+  },
+  "items": {
+    "add": "Add item",
+    "createTitle": "New item",
+    "editTitle": "Edit item",
+    "empty": "No items",
+    "allCategories": "All categories",
+    "selectCategory": "Select a category",
+    "reorderHint": "Select a category above to change the order",
+    "noCategories": "Create a category first to add items",
+    "created": "Item created",
+    "updated": "Item updated",
+    "deleted": "Item deleted",
+    "madeAvailable": "Item marked as available",
+    "madeUnavailable": "Item marked as unavailable",
+    "deleteConfirm": "Delete this item?"
+  }
+}

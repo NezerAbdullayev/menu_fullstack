@@ -1,0 +1,48 @@
+{
+  "siteName": "Menu",
+  "siteTagline": "Restaurant menu",
+  "languages": {
+    "az": "Azərbaycanca",
+    "en": "English",
+    "ru": "Русский"
+  },
+  "languageShort": {
+    "az": "AZ",
+    "en": "EN",
+    "ru": "RU"
+  },
+  "language": "Language",
+  "loading": "Loading...",
+  "error": "Something went wrong",
+  "errorDescription": "Could not load the data. Please try again in a moment.",
+  "networkError": "Could not connect to the server",
+  "retry": "Try again",
+  "back": "Back",
+  "backHome": "Back to home",
+  "notFound": "Page not found",
+  "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+  "empty": "No data",
+  "comingSoon": "Coming soon",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "add": "Add",
+  "search": "Search",
+  "yes": "Yes",
+  "no": "No",
+  "confirm": "Confirm",
+  "close": "Close",
+  "actions": "Actions",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "footer": "© {{year}} {{siteName}}. All rights reserved.",
+  "nav": {
+    "menu": "Menu",
+    "admin": "Admin panel",
+    "dashboard": "Dashboard",
+    "categories": "Categories",
+    "items": "Items",
+    "login": "Sign in",
+    "logout": "Log out"
+  }
+}

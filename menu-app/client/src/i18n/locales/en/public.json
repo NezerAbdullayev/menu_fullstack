@@ -1,0 +1,10 @@
+{
+  "menuTitle": "Menu",
+  "menuSubtitle": "Choose a category",
+  "menuEmpty": "The menu is empty for now",
+  "categoriesNav": "Menu categories",
+  "categoryEmpty": "There are no items in this category yet",
+  "categoryNotFound": "Category not found",
+  "categoryNotFoundDescription": "This category does not exist or is currently unavailable.",
+  "unavailable": "Currently unavailable"
+}
